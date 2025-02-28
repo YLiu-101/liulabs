@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [isTypingComplete, setIsTypingComplete] = useState(false)
   const location = useLocation()
   
   useEffect(() => {
@@ -17,6 +18,15 @@ const Navbar = () => {
     
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+  
+  useEffect(() => {
+    // Simulate typing animation
+    const typingTimeout = setTimeout(() => {
+      setIsTypingComplete(true)
+    }, 2000) // Adjust the duration of the typing animation
+
+    return () => clearTimeout(typingTimeout)
   }, [])
   
   const toggleMenu = () => {
@@ -38,7 +48,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <span className="text-white font-bold text-xl md:text-2xl">LiuLabs<span className="text-green-400">.tech</span></span>
+              <span className="text-white font-bold text-xl md:text-2xl">
+                <span className="typing-animation">
+                  LiuLabs<span className="text-green-400">.tech</span>
+                </span>
+              </span>
             </Link>
           </div>
           

@@ -81,7 +81,7 @@ const AboutPage = () => {
                   <p className="text-gray-400 text-sm mb-3">
                     Combining reinforcement learning with LLMs to create a poker AI that understands game theory and human psychology. It's teaching me a lot about decision-making under uncertainty.
                   </p>
-                  <a href="https://github.com/YLiu-101/poker-ai" className="text-blue-400 text-sm hover:underline inline-flex items-center">
+                  <a href="https://github.com/nqmn1ck/CS578-Project" className="text-blue-400 text-sm hover:underline inline-flex items-center">
                     Check it out
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -91,7 +91,7 @@ const AboutPage = () => {
                 <div className="bg-gray-800/50 rounded-lg p-4 border border-gray-700/50 hover:border-blue-500/30 transition-all">
                   <h4 className="font-bold mb-1">Rationality.ai</h4>
                   <p className="text-gray-400 text-sm mb-3">
-                    A stealth startup I'm co-founding that's exploring new ways to enhance human reasoning and decision-making through AI. Too early to share details, but I'm really excited about where this is going.
+                    A stealth startup. Too early to share details, but I'm really excited about where this is going.
                   </p>
                   <span className="text-gray-500 text-sm italic">Coming soon</span>
                 </div>
@@ -135,7 +135,7 @@ const AboutPage = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-2">•</span>
-                  I'm teaching myself to play chess using only reinforcement learning concepts
+                  I’m actively studying Game Theory Optimal (GTO) strategies in poker to improve my decision-making skills.
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-2">•</span>
@@ -143,11 +143,11 @@ const AboutPage = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-2">•</span>
-                  I believe Monte Carlo simulations can solve approximately 80% of real-world problems
+                  I took a Graduate level class in my freshman year of college (CS 578)
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-2">•</span>
-                  My go-to programming language is Python, but I'm secretly enjoying Rust more these days
+                  I like to think that I'm a decent cook, but my friends might disagree
                 </li>
               </ul>
             </div>
@@ -174,7 +174,7 @@ const AboutPage = () => {
               </svg>
               GitHub
             </a>
-            <a href="#" className="bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700/50 hover:border-blue-500/50 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
+            <a href="https://www.linkedin.com/in/kai--liu/" className="bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700/50 hover:border-blue-500/50 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>

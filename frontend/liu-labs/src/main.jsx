@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
 import AboutPage from './pages/AboutPage'
 import ProjectsPage from './pages/ProjectsPage'
-// import PodcastPage from './pages/PodcastPage'
+import PodcastPage from './pages/PodcastPage'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        {/* <Route path="/podcast" element={<PodcastPage />} /> */}
+        <Route path="/podcast" element={<PodcastPage />} />
       </Routes>
     </Router>
   </React.StrictMode>
