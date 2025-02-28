@@ -32,13 +32,13 @@ const Navbar = () => {
   
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-black/90 backdrop-blur-sm shadow-lg py-2' : 'bg-transparent py-4'
+      scrolled ? 'bg-slate-900/90 backdrop-blur-sm shadow-lg py-2' : 'bg-transparent py-4'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <span className="text-white font-bold text-xl md:text-2xl">LiuLabs<span className="text-blue-500">.tech</span></span>
+              <span className="text-white font-bold text-xl md:text-2xl">LiuLabs<span className="text-green-400">.tech</span></span>
             </Link>
           </div>
           
@@ -51,7 +51,7 @@ const Navbar = () => {
                   to={link.path}
                   className={`${
                     location.pathname === link.path
-                      ? 'text-blue-500 font-medium'
+                      ? 'text-green-400 font-medium'
                       : 'text-gray-300 hover:text-white'
                   } px-3 py-2 rounded-md text-sm font-medium transition-colors`}
                 >
@@ -92,8 +92,8 @@ const Navbar = () => {
               to={link.path}
               className={`${
                 location.pathname === link.path
-                  ? 'bg-gray-900 text-blue-500'
-                  : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+                  ? 'bg-slate-800 text-green-400'
+                  : 'text-gray-300 hover:bg-slate-700 hover:text-white'
               } block px-3 py-2 rounded-md text-base font-medium`}
               onClick={() => setIsMenuOpen(false)}
             >
