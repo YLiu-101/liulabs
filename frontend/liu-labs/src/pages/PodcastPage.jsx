@@ -93,12 +93,12 @@ const ComingSoonPage = () => {
                   required
                   className="bg-transparent hover:bg-white/5 border border-white/30 text-white px-8 py-3 rounded-md flex-grow focus:outline-none focus:ring-2 focus:ring-white/50 max-w-md"
                 />
-                <button
-                  type="submit"
-                  className="bg-white text-black px-8 py-3 rounded-md font-medium text-lg"
-                >
-                  Notify Me
-                </button>
+<button
+  type="submit"
+  className="bg-white text-purple-600 px-8 py-3 rounded-md font-medium text-lg"
+>
+  Notify Me
+</button>
               </form>
             ) : (
               <div className="bg-white/10 border border-white/20 text-white px-8 py-3 rounded-md max-w-lg mx-auto">
